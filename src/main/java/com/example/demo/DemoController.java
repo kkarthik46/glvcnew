@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DemoController {
 	@RequestMapping("/test")
 	@ResponseBody
+	//comment
 	public String message() {
 		return "Example of docker run on spring ";
 	}
